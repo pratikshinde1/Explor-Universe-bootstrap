@@ -1,0 +1,184 @@
+*{ 
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Roboto Condensed', sans-serif; 
+} 
+
+/* navbar */
+
+.navbar-nav{ 
+	margin-right: 0 ; 
+	padding-right: 100px; 
+} 
+
+.navbar{ 
+	background-color: #9d5599; 
+	color: white !important; 
+} 
+
+.nav-item a{ 
+	color: rgb(213, 232, 7); 
+} 
+
+.nav-item{ 
+	padding-left: 2px; 
+} 
+
+.navbar-brand{ 
+	color: rgb(230, 15, 15) ; 
+	padding-left: 100px; 
+} 
+
+#navbar button{ 
+	color: rgb(235, 232, 232) ; 
+} 
+
+.navbar-toggler-icon{
+  color:rgb(236, 4, 4);
+  
+}
+
+/* banner */
+
+#banner-container{ 
+	background-color: #0a193d; 
+	color: white !important; 
+	padding-top: 80px; 
+	padding-bottom: 80px; 
+	
+} 
+ 
+#banner-row video{ 
+	max-width: 70%; 
+	height:auto; 
+	display: block; 
+  /* padding-top: 10px; */
+	/* padding-left: 30px;   */
+} 
+
+#banner-row h3, p{ 
+	padding-left: 20px; 
+	padding-top: 20px; 
+	text-align: center; 
+} 
+
+#banner-row a{ 
+	background-color: white !important; 
+	color: black !important; 
+	border: none; 
+	margin-left: 20px; 
+	margin-top: 20px; 
+	
+} 
+#banner-col{ 
+	padding-left: 20px; 
+} 
+/* service */
+#service{ 
+	padding-top: 80px; 
+	padding-bottom: 80px; 
+} 
+
+#service h1{ 
+	padding-bottom: 70px; 
+} 
+
+/* about */
+
+#about{ 
+	padding-top: 80px; 
+	padding-bottom: 80px; 
+} 
+
+#about h1{ 
+	padding-bottom: 70px; 
+} 
+
+#about-col ul{ 
+	padding-top: 50px; 
+	padding-left: 50px; 
+} 
+
+#about-col ul li{ 
+	padding-top: 15px; 
+	
+} 
+/* .img-responsive{
+	width: 70%;
+	border: 1px solid red;
+} */
+
+/* product */
+
+#Special{ 
+	padding-top: 80px; 
+	padding-bottom: 80px; 
+	background-color: aqua;
+} 
+
+#Special h1{ 
+	padding-bottom: 70px; 
+	 
+} 
+
+#Special-col2 ul{ 
+	padding-top: 90px; 
+	/* background-color: aqua; */
+} 
+
+#Special-col2 ul li{ 
+	padding-top: 15px; 
+} 
+/* .heading h3{
+	 margin-right: 70px;
+	 background-color: #9d5599;
+} */
+
+/* social */
+
+#social{ 
+	padding-top: 80px; 
+	padding-bottom: 80px; 
+} 
+
+#social h1{ 
+	padding-bottom: 70px; 
+} 
+
+.social-col a:hover img{ 
+transform: translateY(-10px); 
+} 
+
+#social-row{ 
+	flex-direction: row; 
+} 
+
+.card{
+	width: 18rem;
+	 margin-left: 50px;
+}
+
+/* footer */
+
+.mb-3{ 
+padding-top: 10px; 
+} 
+
+
+/* media */
+@media only screen and (max-width: 987px){ 
+	.navbar-brand{ 
+		padding-left: 0px; 
+	} 
+} 
+
+@media only screen and (max-width: 768px){ 
+	#banner-row img{ 
+		padding-top: 20px; 
+	} 
+
+.social-col{ 
+	width: 33%; 
+} 
+
+}
